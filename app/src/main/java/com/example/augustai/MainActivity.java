@@ -69,7 +69,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         chatView.send(message);
         sendRequest(chatView.getInputText());
         //Reset edit text
+        
         chatView.setInputText("");
+        
     }
 
     /*
